@@ -8,4 +8,4 @@ class FilaBase:
             if self.codigo >= 200:
                 self.codigo = 0
             else:
-                self.codigo = int(self.codigo) + 1
+                self.codigo += 1
